@@ -38,9 +38,21 @@ For more details [link](https://github.com/webpatser/laravel-uuid)
 
 # Return HTTP Status Code, used inside the project
 
-200 : success (OK).
-201 : Created.
-204 : No Content.
-404 : Not found.
-500 : Internal Server Error
+* 200 : success (OK).
+* 201 : Created.
+* 204 : No Content.
+* 404 : Not found.
+* 500 : Internal Server Error
 
+## How to use
+
+* `composer install` to install Composer PHP Packages.
+* `npm install` to install all required libraries listed in `packages.json`.
+* `cp .env.example .env` and configure your database.
+* `php artisan key:generate` to generate your app encryption key.
+* `php artisan migrate` to generate database tables.
+* `php artisan serve` to run server up on your local browser.
+
+
+# Author
+Copyright © Ashraf Amer
